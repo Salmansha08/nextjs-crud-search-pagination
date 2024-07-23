@@ -11,13 +11,13 @@ export const getContacts = async (query: string, currentPage: number) => {
           {
             name: {
               contains: query,
-              mode: "insensitive",
+              // mode: "insensitive",
             },
           },
           {
             phone: {
               contains: query,
-              mode: "insensitive",
+              // mode: "insensitive",
             },
           },
         ],
@@ -55,13 +55,13 @@ export const getContactPages = async (query: string) => {
           {
             name: {
               contains: query,
-              mode: "insensitive",
+              // mode: "insensitive",
             },
           },
           {
             phone: {
               contains: query,
-              mode: "insensitive",
+              // mode: "insensitive",
             },
           },
         ],
